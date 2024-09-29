@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  height: 100px;
+}
+
+.header-left-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  color: aqua;
+  background-color: grey;
+}
+
+.icon {
+  height: 200px;
+  margin: 50px;
+  width: 100px;
+}
+
+.header-right-container {
+  height: 100%;
+  width: 50%;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  background-color: grey;
+  color: aqua;
+}
+
+.navbar-container {
+  height: 20px;
+  width: auto;
+  display: flex;
+  gap: 20px;
+}

@@ -1,7 +1,7 @@
 // pages/index.tsx
-import HomePage from "@/pages/api/HomePage";
+import HomePage from "@/pages/HomePage";
 
-const page = () => {
+const page: React.FC = () => {
   return (
     <div>
       <HomePage />

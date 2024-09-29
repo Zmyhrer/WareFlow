@@ -1,0 +1,7 @@
+.sidebar-container {
+  height: 90vh;
+  width: 225px;
+  display: block;
+  position: static;
+  background-color: skyblue;
+}
